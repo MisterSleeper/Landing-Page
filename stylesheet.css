@@ -1,0 +1,39 @@
+#header-elements {
+display: flex;
+background-color: #1F2937;
+color: #F9FAF8;
+justify-content: space-between;
+margin: 25px 100px 100px 0;
+}
+
+.Logo {
+    box-sizing: border-box;
+    height: auto;
+    width: 120px;
+}
+
+.other-links{
+    display: flex;
+    gap: 30px;
+}
+
+body{
+    background-color: #1F2937;
+    
+}
+
+.Welcome {
+    margin: 80px;
+    color: #F9FAF8;
+    box-sizing: border-box;
+    width: 500px
+
+}
+
+.Catcyber {
+    font-size: 48px;
+}
+.Button {
+
+    background-color: #3882F6;
+}

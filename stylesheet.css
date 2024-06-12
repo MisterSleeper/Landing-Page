@@ -1,39 +1,146 @@
-#header-elements {
-display: flex;
-background-color: #1F2937;
-color: #F9FAF8;
-justify-content: space-between;
-margin: 25px 100px 100px 0;
+body{
+   background-color: #1F2937;
 }
 
-.Logo {
-    box-sizing: border-box;
+.Flex-header{
+   display: flex;
+   background-color: #1F2937;
+   justify-content: space-between;
+   padding: 0 20px 20px 0;
+}
+
+#Logo{
     height: auto;
-    width: 120px;
+    width: 100px;
 }
 
-.other-links{
+.Link-header{
     display: flex;
+    color: #F9FAF8;
     gap: 30px;
 }
 
-body{
-    background-color: #1F2937;
-    
-}
-
-.Welcome {
-    margin: 80px;
+.Flex-main{
+    display: flex;
     color: #F9FAF8;
-    box-sizing: border-box;
-    width: 500px
+    margin: 100px 60px 120px 70px;
+    flex-direction: column;
+}
+
+#Main-text{
+    padding-right: 600px;
+}
+
+#Reviews{
+    background-color: #F9FAF8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 
 }
 
-.Catcyber {
-    font-size: 48px;
+#Review-h1{
+    font-size: 50px;
 }
-.Button {
 
-    background-color: #3882F6;
+.cover{
+    display: flex;
+    width: 900;
+    height: 400;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.students{
+    display: flex;
+    height: auto;
+    width: 200px;
+    border: solid blue;
+    border-radius: 25px;
+}
+
+#Words{
+    background-color: #e5e7eb;
+    padding: 80px 400px 80px 150px;
+}
+
+#Wise-words{
+    display: flex;
+    flex-direction: column;
+}
+
+#Quote{
+    align-self: flex-start;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+#Wise-cat{
+    align-self: flex-end;
+}
+
+#Button-Course{
+    display: flex;
+    background-color: #F9FAF8;
+    width: auto;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Flex-Button{
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 5px;
+    height: 150px;
+    width: 800px;
+    padding: 20px 100px 20px 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.Box-course{
+    color: #F9FAF8;
+    padding:0;
+}
+
+#Button-Signup{
+    background-color: #3882f6;
+    border: solid #F9FAF8;
+    color: #F9FAF8;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: medium;
+    border-style: groove;
+    font-weight: bold;
+}
+
+.Text-space{
+    margin: 0;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-text{
+    color: #F9FAF8;
 }
